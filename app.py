@@ -17,10 +17,12 @@ st.set_page_config(page_title="Document Genie", layout="wide")
 # Display the title and instructions for the app
 st.markdown("""
 ## Document Genie: Get instant insights from your Documents
-## How it works:You'll need a Google API key for the chatbot to access Google's Generative AI models. Obtain your API key https://makersuite.google.com/app/apikey.
-1. Enter your API key
-2. Upload your documents
-3. Ask a question
+## How it works:
+1. **Enter your API key**:You'll need a Google API key for the chatbot to access Google's Generative AI models. Obtain your API key https://makersuite.google.com/app/apikey.
+2. **Upload your documents**:The system accepts multiple PDF files at once, analyzing the content to provide comprehensive insights.
+3. **Ask a question**:After processing the documents, ask any question related to the content of your uploaded documents for a precise answer.
+""")
+
 """)
 
 # Input field for the user to enter their Google API key
