@@ -23,8 +23,6 @@ st.markdown("""
 3. **Ask a question**:After processing the documents, ask any question related to the content of your uploaded documents for a precise answer.
 """)
 
-""")
-
 # Input field for the user to enter their Google API key
 api_key = st.text_input("Enter your Google API key:", type="password", key="api_key_input")
 
